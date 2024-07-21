@@ -57,7 +57,7 @@
                 - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
             <label for="stack">
-                <input type="checkbox" value="Working with the layout" checked>
+                <input type="checkbox" value="Working with the layout" selected>
                 Working with the layout
                 <input type="checkbox" value="Working with fonts">
                 Working with fonts
@@ -68,9 +68,11 @@
             </label>    
         </div>
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
+            <input type="text" placeholder="new skills">
         <!-- 6) Создай здесь кнопку “Добавить” -->
+            <button>Add</button>
         <!-- 7) Добавь горизонтальную линию (для этого есть специальный тег) -->
-        
+            <hr>
         <table data-cy="hw-about-table-pre">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
