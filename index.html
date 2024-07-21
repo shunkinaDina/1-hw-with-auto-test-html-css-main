@@ -78,6 +78,39 @@
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
                         - В последнем ряду первая ячейка должна занимать все свободное место по горизонтали (ширине). Таблицу можно заполнять любыми данными -->
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Number of section</th>
+                        <th>Section</th>
+                        <th>Number of test cases</th>
+                        <th>Test case</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Log In</td>
+                        <td>1.1</td>
+                        <td>Log in with credentials</td>
+                        <td>Pass</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Log In</td>
+                        <td>1.2</td>
+                        <td>Log in with Google</td>
+                        <td>Failed</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Env</td>
+                        <td>Test/Prod</td>
+                        <td>QA</td>
+                        <td>Shunkina</td>
+                    </tr>
+                </tbody>
+            </table>               
         </table>
     </section>
     <footer data-cy="hw-footer-pre">
