@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body{
+    font-family: "Inter", sans-serif;
+    font-style:normal;
+    color: #303030;
+}
+
+a{
+text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+/* 3. header section*/
+.header{
+    background: #2965f1;
+    padding: 23px 0;
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+/* 4. first section*/
+.first-setion{
+    background: #fafaff;
+    padding: 60px 0;
+    min-height: 600px;
+}
+.name{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.info{
+    font-weight: 400;
+    font-size: 18px;
+}
+.avatar{
+    max-width: 715px;
+}
+/* 4. second section*/
+.second-section{
+    fill: #fff;
+    padding: 100px 0;
+}
+.list-city{
+    width: 150px;
+    padding: 9px 0px 8px 12px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    background-image: url(./assert/img/ep_arrow-down.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    appearance: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.list-countries{
+    font-weight: 400;
+    font-size: 16px;
+    list-style-image: url(./assert/img/Vector.svg);
+    padding-left: 20px; 
+}
+.list-poetry{
+    padding-left: 20px; 
+    font-weight: 400;
+    font-size: 16px;
+}
+
+label{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input[type="text"]{
+    width: 330px;
+    padding: 9px 0px 8px 12px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button{
+    border-radius: 5px;
+    width: 125px;
+    background: #2965f1;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+hr{
+    margin: 60px 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #95a1bb;
+    width: 113px;
+    padding: 10px 0;
+    font-weight: 700;
+    text-align: center;
+}
+th{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}
+td{
+    font-weight: 400;
+    font-size: 14px;
+}
+.last-str{
+    text-align: left
+}
+footer{
+    background: rgba(163, 167, 255, 0.3);
+    padding: 26px 0;
+}
+
+a{
+    font-weight: 400;
+    font-size: 14px;
+}
+a:link {
+    color: #2965f1;
+    }
+a:visited {
+    color: #437a16;
+    }
