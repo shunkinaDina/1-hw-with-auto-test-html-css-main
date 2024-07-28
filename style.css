@@ -37,35 +37,38 @@ h2{
     background: #2965f1;
     padding: 23px 0;
 }
-.logo{
-    font-weight: 700;
+span{font-weight: 700;
     font-size: 20px;
-    color: #fff;
-}
+    color: #fff;}
+
 /* 4. first section*/
-.first-setion{
+section[data-cy="hw1-section-main-pre"]{
     background: #fafaff;
     padding: 60px 0;
-    min-height: 600px;
+    min-height: 600px; 
 }
-.name{
+
+h1{
     font-weight: 700;
     font-size: 48px;
     margin-bottom: 20px;
 }
-.info{
+p{
     font-weight: 400;
     font-size: 18px;
 }
-.avatar{
+img{
     max-width: 715px;
 }
+
 /* 4. second section*/
-.second-section{
+
+section[data-cy="hw1-section-about-pre"]{
     fill: #fff;
     padding: 100px 0;
 }
-.list-city{
+
+select{
     width: 150px;
     padding: 9px 0px 8px 12px;
     border: 1px solid rgba(48, 48, 48, 0.3);
@@ -79,13 +82,13 @@ h2{
 }
 
 
-.list-countries{
+ul{
     font-weight: 400;
     font-size: 16px;
     list-style-image: url(./assert/img/Vector.svg);
     padding-left: 20px; 
 }
-.list-poetry{
+ol{
     padding-left: 20px; 
     font-weight: 400;
     font-size: 16px;

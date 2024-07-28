@@ -15,24 +15,24 @@
     <!-- ⚠️ Атрибут data-cy удалять нельзя! Он учавствует в проверке. Если его удалить, тесты не пройдут. -->
 
     <header class="header">
-        <span class="logo">IT-INCUBATOR</span>
+        <span>IT-INCUBATOR</span>
     </header>
 
-    <section class="first-setion" data-cy="hw1-section-main-pre">
+    <section data-cy="hw1-section-main-pre">
         <!-- 1) В этом разделе создай 3 дочерних элемента: -->
 
         <!-- a) Заголовок первого уровня со своим ФИО -->
-        <h1 class="name">Dina Shunkina</h1>
+        <h1>Dina Shunkina</h1>
         <!-- b) Несколько строк о себе: где учишься или работаешь, хобби, увлечения. Используй тег для абзаца. Длина строки должна быть больше 50-ти симвов (пробелы и др знаки припинания тоже считаются символом) -->
-        <p class="info">I work as a QA engineer in the IT field. I'm interested in new technologies. I like to develop and learn something new. In my downtime, I study English and do sports. I have a cat, a big, white, fluffy. </p>
+        <p>I work as a QA engineer in the IT field. I'm interested in new technologies. I like to develop and learn something new. In my downtime, I study English and do sports. I have a cat, a big, white, fluffy. </p>
         <!-- c) Фото (или любую картинку из интернета). Не забудь добавить описание на случай, если изображение не загрузится -->
-        <img class="avatar" src="./assert/img/Screenshot-1.png" alt="avatar">
+        <img src="./assert/img/Screenshot-1.png" alt="avatar">
     </section>
 
-    <section class="second-section" data-cy="hw1-section-about-pre">
+    <section data-cy="hw1-section-about-pre">
         <!-- 2) В этом разделе создай выпадающий список с разными городами (не меньше 3-х). Свой город сделай вторым в этом списке. С помощью специального атрибута, сделай так, чтобы твой город всегда был выбранным по умолчанию  -->
         <div data-cy="hw1-unordered-list-box-pre">
-        <select class="list-city" name="list" id="city">
+        <select name="list" id="city">
             <option value="Mogilev">Mogilev</option>
             <option value="Minsk" selected>Minsk</option>
             <option value="Brest">Brest</option>
@@ -43,7 +43,7 @@
             <!-- a) Заголовок 2-го уровня (любимые книги/фильмы/блюда/страны... и т.п.) -->
             <h2>Favorite countries</h2>
             <!-- b) Маркированный список. В списке должно быть не менее 3-х элементов -->
-            <ul class="list-countries">
+            <ul>
                 <li>Portugal</li>
                 <li>Spain</li>
                 <li>Germany</li>
